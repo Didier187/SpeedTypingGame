@@ -12,15 +12,14 @@ Test your typing speed with this small react project
 	- At the end of the time you will see how many words you typed in as many seconds
 		- input field will be disabled
 		- The  function below will return the exact word count without spaces
-		- ```javascript
+		- 
+		```javascript
 			function calculateWordCount(text) {
         			const wordsArr = text.trim().split(" ")
         			return wordsArr.filter(word => word !== "").length
     			}
 		```
-		
-		
-
+___
 ## React feautures covered
 
 1. Hooks
