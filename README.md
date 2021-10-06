@@ -11,13 +11,15 @@ Test your typing speed with this small react project
 	- The time will start counting from deafult time which is 30 secs
 	- At the end of the time you will see how many words you typed in as many seconds
 		- input field will be disabled
+		- The  function below will return the exact word count without spaces
 		- ```javascript
 			function calculateWordCount(text) {
         			const wordsArr = text.trim().split(" ")
         			return wordsArr.filter(word => word !== "").length
     			}
 		```
-		- The above function will return the word cunt
+		
+		
 
 ## React feautures covered
 
