@@ -1,0 +1,28 @@
+{
+  "name": "speed-typing-game",
+  "dependencies": {
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "react-scripts": "^4.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
