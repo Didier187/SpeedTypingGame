@@ -7,7 +7,7 @@ function App() {
 const [textBoxRef, handleChange,text,timeRemaining,startGame,isTimeRunning,wordCount] = useGameLogic()    
     return (
         <div>
-            <h1>How fast do you type?</h1>
+            <h1>How many words can you type in 30 seconds?</h1>
             <textarea
                 ref={textBoxRef}
                 onChange={handleChange}
